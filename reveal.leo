@@ -10,10 +10,10 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="amd.20150913232631.1"><vh>@settings</vh>
+<v t="amd.20150913232631.1" a="E"><vh>@settings</vh>
 <v t="amd.20150913232631.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="amd.20150913232631.3"><vh>@string initial_split_orientation = horizontal</vh></v>
-<v t="amd.20150915153206.1"><vh>專案說明</vh>
+<v t="amd.20150915153206.1" a="E"><vh>專案說明</vh>
 <v t="amd.20150919102209.1"><vh>使用工具</vh>
 <v t="amd.20150919112415.1"><vh>影片檔案</vh></v>
 </v>
@@ -40,7 +40,7 @@
 <v t="amd.20150919114035.1"><vh>@edit 2016cphww1.md</vh></v>
 </v>
 <v t="amd.20150919120205.1"><vh>以下為 reveal 投影片</vh></v>
-<v t="amd.20150915211341.1"><vh>@clean simplest.html</vh>
+<v t="amd.20150915211341.1" a="E"><vh>@clean simplest.html</vh>
 <v t="amd.20150917085040.1"><vh>檔案說明</vh></v>
 <v t="amd.20150915211351.1" a="E"><vh>html 標註</vh>
 <v t="amd.20150915211351.4" a="E"><vh>body 標註</vh>
@@ -345,7 +345,7 @@ pelican pelican -o ./../ -s publishconf.py
 
 # Password to use for web authentication
 c = get_config()
-# password is  "2015cp"
+# password is  "2016cp"
 c.NotebookApp.password = u'sha1:864c0bcdb94e:8a396ef692ef3cc552177f1b1c48cec70c7a32df'
 c.NotebookApp.port = 8888
 
