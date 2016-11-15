@@ -7,8 +7,8 @@ from __future__ import unicode_literals
 
 import os
 
-AUTHOR = '40323250'
-SITENAME = '2015電腦輔助設計 課程'
+AUTHOR = '40023139'
+SITENAME = '2016電腦輔助設計 課程'
 SITEURL = ''
 
 PATH = 'content'
@@ -25,11 +25,9 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('2015課程網頁', 'http://wordpress-2015course.rhcloud.com/'),
+LINKS = (('ONshape', 'http://ONshape.com'),
          ('Python', 'http://python.org/'),
-         ('Version_2', 'http://b850617.github.io/reveal2/'),
-         ('班上共同倉儲作業', 'http://2015fallhw.github.io/2015fallcadpb/user/40323250/'),
-         ('You can modify those links in your config file', '#'),)
+          ('You can modify those links in your config file', '#'),)
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
@@ -48,7 +46,7 @@ DELETE_OUTPUT_DIRECTORY = True
 # Following items are often useful when publishing
 
 #DISQUS_SITENAME = ""
-DISQUS_SITENAME = "2015fall"
+DISQUS_SITENAME = "2016fall"
 #GOOGLE_ANALYTICS = ""
 
 # 必須絕對目錄或相對於設定檔案所在目錄
